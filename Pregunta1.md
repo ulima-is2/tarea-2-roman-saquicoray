@@ -5,8 +5,9 @@ funcionalidades, cuando el principio se basa en la cohesión y promueve la modul
 
 ### Open Close 
 
-No se cumple el pincipio Open Close 
+Al no existir una clase padre para los cines, se estaría evidenciando, la no existencia del principio open close, con la creación de la clase padre y mediante la abstrabcion se podrian heredar metodos y propiedades a los cines hijos.
 
+### Liskov Sustitution  
 
-### Interface Segregation
+El principio no se cumple ya que el cliente tiene que interactuar por cada cine por separado, a pudiendo en el caso ideal comunicarse con la clase cine previa abstracción.
 
